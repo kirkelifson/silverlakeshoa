@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%= erb :header %>
+    <body>
+        <div class="container">
+            <%= erb :nav %>
+            <%= erb :logo %>
+            
+			<%= yield %>
+        </div>
+		
+        <%= erb :bootstrap %>
+    </body>
+</html>
