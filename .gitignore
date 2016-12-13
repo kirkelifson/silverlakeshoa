@@ -1,0 +1,5 @@
+tmp/sockets/*
+tmp/pids/*
+log/*
+!.keep
+
