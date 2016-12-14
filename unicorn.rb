@@ -1,6 +1,6 @@
 # set path to app that will be used to configure unicorn,
 # note the trailing slash in this example
-@dir = "/home/kirk/silverlakes/"
+@dir = File.expand_path(__FILE__).split('/')[0...-1].join('/') + '/'
 
 worker_processes 2
 working_directory @dir
